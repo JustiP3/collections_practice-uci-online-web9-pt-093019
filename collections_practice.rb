@@ -33,4 +33,8 @@ def find_a (array)
 array.select {|s| s[0] == "a" }
 end
 
+def sum_array(array)
+  
+end
+
 
