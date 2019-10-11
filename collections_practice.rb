@@ -29,3 +29,8 @@ array.each do |x|
 end
 end
 
+def find_a (array)
+array.select {|s| s.first("a")  
+end
+
+
