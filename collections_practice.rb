@@ -34,7 +34,7 @@ array.select {|s| s[0] == "a" }
 end
 
 def sum_array(array)
-array.inject {|sum,x| sum +   
+array.inject {|sum,x| sum + x }
 end
 
 
