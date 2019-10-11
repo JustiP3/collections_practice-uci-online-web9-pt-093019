@@ -45,6 +45,8 @@ array.collect do |x|
   end 
    i += 1  
   end 
+  array 
+  
 end
  
 
