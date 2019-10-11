@@ -7,15 +7,6 @@ return array.sort {|x,y| -1 * (x <=> y) }
 end
 
 def sort_array_char_count (array)
-array.sort do |x,y| 
-  if x.length > y.length
-    1 
-    elsif x.length == y.length
-    0 
-    else
-    -1 
-    end 
-  end
-
+array.sort {|x,y|  x.length <=> y.length}
 end
 
