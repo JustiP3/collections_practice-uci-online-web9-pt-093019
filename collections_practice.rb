@@ -10,11 +10,11 @@ def sort_array_char_count (array)
 array.sort {|x,y|  x.length <=> y.length}
 end
 
-def swap_elements (array, index1, index2)
+def swap_elements (array)
   placeholder = []
-  placeholder << array[index1]  
-  placeholder << array[index2]
-  array[index1] = placeholder[1]
-  array[index2] = placeholder[0]
+  placeholder << array[1]  
+  placeholder << array[2]
+  array[1] = placeholder[1]
+  array[2] = placeholder[0]
   return array 
 end
